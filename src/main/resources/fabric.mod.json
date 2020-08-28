@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "nobbdupe",
+  "version": "${version}",
+  "name": "NoBbDupe",
+  "description": "Prevents Baby Piglins from picking up items",
+  "authors": [
+    "ItsIlya"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "nobbdupe.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.16.2"
+  }
+}
